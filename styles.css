@@ -1,0 +1,46 @@
+:root {
+  --flexSelection: flex;
+  --color: red
+}
+
+#flex-container {
+  display: var(--flexSelection);
+}
+
+.flexbox-child {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+#one {
+  background-color: var(--color);
+}
+
+#two {
+  background-color: green;
+}
+
+#three {
+  background-color: blue;
+}
+
+#four {
+  background-color: yellow;
+}
+
+#five {
+  background-color: orange;
+}
+
+#six {
+  background-color: purple;
+}
+
+#seven {
+  background-color: pink;
+}
+
+#eight {
+  background-color: brown;
+}
